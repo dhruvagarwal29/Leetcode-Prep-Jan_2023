@@ -36,7 +36,7 @@ def fibonacci_number_dp_tabulation(num):
     
     return dp[num]
 
-def fibonacci_number_dp_space_optimized(num):
+def fibonacci_number_dp_space_optimized(num):  # bottom - up
     # here we are using variable instead of the dp array 
     # time complexity is O(n), space complexity is O(1)
     prev = 1 # second element dp[1]

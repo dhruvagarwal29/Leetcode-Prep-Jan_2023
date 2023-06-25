@@ -8,7 +8,7 @@ def find_permutations(arr, result, current):
     # base case
 
     if not arr:
-        result.append(list(st))
+        result.append(list(current))
         return
 
     for i in range( len(arr)):
